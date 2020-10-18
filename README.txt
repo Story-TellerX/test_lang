@@ -11,6 +11,7 @@ Initial commit
 
 Проверялось с использованием в Bash:
 pytest --language=es test_items.py
+pytest --language=fr test_items.py
 pytest --language=en test_items.py
 pytest --language=ru test_items.py
 
@@ -18,3 +19,7 @@ pytest --browser_name=chrome --language=es test_items.py
 pytest --browser_name=firefox --language=es test_items.py
 
 Добавил прямое ожидание для наличия возможности прочитать на каком языке открыта страница в браузере
+
+Добавлена проверка на видимость кнопки
+
+Добавлена проверка на кликабельность кнопки (при необходимости выберайте)
